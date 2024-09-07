@@ -1,3 +1,4 @@
 # Ignore specific configuration files
 config.php
 config_domain.php
+platetracker/

@@ -75,3 +75,7 @@ a:hover{
         opacity: 1;
     }
 }
+
+.d-none {
+    display: none;
+}
