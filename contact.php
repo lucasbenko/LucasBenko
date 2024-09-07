@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+session_start();
+?>
 
 <head>
     <meta charset="UTF-8">
@@ -59,32 +62,31 @@
                     </p>
                 </div>
             </div>
-
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <form action="send.php" method="POST">
+                    <form id="contactForm">
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="name" placeholder="Name"
-                                style="background-color:#302c2c; color:#fff; border-color: #302c2c; " required>
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="email" placeholder="Email"
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name"
                                 style="background-color:#302c2c; color:#fff; border-color: #302c2c;" required>
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" id="message" placeholder="Message" rows="4"
-                                style="background-color:#302c2c; color:#fff; border-color: #302c2c; resize: none;"
-                                required></textarea>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email"
+                                style="background-color:#302c2c; color:#fff; border-color: #302c2c;" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" name="message" placeholder="Message" rows="4"
+                                style="background-color:#302c2c; color:#fff; border-color: #302c2c; resize: none;" required></textarea>
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-md-6 d-flex justify-content-center my-4">
-                                <p>This feature is temporarily disabled</p>
+                            <div class="col-md-6 p-2 d-flex justify-content-center">
+                                <button type="submit" class="btn"
+                                    style="background-color: #e6615a; border-color: #e6615a; color: #fff;">Submit</button>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-md-6 d-flex justify-content-center">
-                                <button type="submit" class="btn"
-                                    style="background-color: #e6615a; border-color: #e6615a; color: #fff;" disabled>Submit</button>
+                        
+                        <div id="notification" class="notification d-none p-2">
+                            <div class="notification-content">
+                                <p class="text-center">Your message was sent successfully, thank you!</p>
                             </div>
                         </div>
                     </form>
@@ -92,6 +94,8 @@
             </div>
         </main>
     </div>
+
+
 
     <footer class="text-center mt-auto w-100" style="background-color: #302c2c">
         <div class="container">
@@ -105,10 +109,15 @@
             </div>
 
             <div class="row justify-content-center my-2" style="color: #ffffff;">&copy;
-                <script>document.write(/\d{4}/.exec(Date())[0])</script> Lucas Benko
+                <script>
+                    document.write(/\d{4}/.exec(Date())[0])
+                </script> Lucas Benko
             </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="res/submit.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
