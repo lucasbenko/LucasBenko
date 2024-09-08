@@ -64,7 +64,7 @@ session_start();
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <form id="contactForm">
+                    <form id="contactForm" action="send.php" method="POST">
                         <div class="mb-3">
                             <input type="text" class="form-control" id="name" name="name" placeholder="Name"
                                 style="background-color:#302c2c; color:#fff; border-color: #302c2c;" required>
@@ -79,11 +79,11 @@ session_start();
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-md-6 p-2 d-flex justify-content-center">
-                                <button type="submit" class="btn"
+                                <button type="submit" class="btn" id="submitButton"
                                     style="background-color: #e6615a; border-color: #e6615a; color: #fff;">Submit</button>
                             </div>
                         </div>
-                        
+
                         <div id="notification" class="notification d-none p-2">
                             <div class="notification-content">
                                 <p class="text-center">Your message was sent successfully, thank you!</p>
