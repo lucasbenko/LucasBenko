@@ -90,6 +90,31 @@
           </p>
         </div>
       </div>
+      
+      <div class="p-2">&nbsp</div>
+      <!-- NHL Goal Alert -->
+      <div class="row justify-content-center">
+        <div
+          class="col-md-3 d-flex justify-content-center align-items-center text-center">
+          <a href="https://github.com/lucasbenko/NHLGoalAlert">
+            <img
+              src="res/nhlgoalalert.png"
+              class="img-fluid img-portfolio p-4"
+              alt="Lucas Benko" />
+          </a>
+        </div>
+        <div class="col-md-6 justify-content-center text-center">
+          <h1><a href="https://github.com/lucasbenko/NHLGoalAlert">NHL Goal Alert</a></h1>
+          <p class="lead text-center">
+            A Java project that fetches live score data from the NHL API to flash lights and sound a horn to enhance the hockey viewing experience.
+          </p>
+          <p>
+            <a
+              href="https://github.com/lucasbenko/NHLGoalAlert"
+              target="_blank" class="github-link">View on GitHub</a>
+          </p>
+        </div>
+      </div>
       <!-- Minesweeper -->
       <div class="p-2">&nbsp</div>
 
