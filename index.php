@@ -20,12 +20,12 @@
 
     <div class="container">
         <header class="text-center mt-4">
-            <h1 class="display-4">Lucas Benko</h1>
+            <h1 class="display-4 main-title">Lucas Benko</h1>
         </header>
 
         <nav class="navbar-expand-lg mb-4">
             <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="index">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link" href="resume">Resume</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
@@ -34,20 +34,21 @@
 
         <main>
             <div class="row justify-content-center">
-                <div class="col-md-3 d-flex justify-content-center align-items-center text-center">
-                    <img src="res/profile_picture.jpg" class="img-fluid rounded-circle p-4" alt="Lucas Benko">
-                </div>
-                <div class="col-md-6 justify-content-center">
-                    <p class="lead text-center">
-                        Recent Computer Information Systems graduate from Okanagan College with a passion for
-                        technology. Possesses hands-on experience in Network Infrastructure, Software Development, and
-                        Web Applications. Knowledgeable in various programming languages, frameworks, and tools, with
-                        practical experience in real-world projects. Maintains a strong desire to deliver consistent
-                        results and become a lifelong learner.
-                    </p>
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+                    <div>
+                        <img src="res/profile_picture.jpg" class="img-fluid rounded-circle p-4" alt="Lucas Benko">
+                    </div>
+                    <div class="lead text-center">
+                        <p>
+                            I am a Computer Information Systems graduate from Okanagan College, currently based in Kelowna, BC. I have a strong passion for
+                            technology, and hands-on experience in network infrastructure, software development, and
+                            web applications. I am knowledgeable in an array programming languages, frameworks, and tools, with
+                            practical experience in real-world projects. I'm committed to delivering consistent
+                            results with a dedication to lifelong learning.
+                        </p>
+                    </div>
                 </div>
             </div>
-
         </main>
     </div>
 
@@ -63,7 +64,9 @@
             </div>
 
             <div class="row justify-content-center my-2" style="color: #ffffff;">&copy;
-                <script>document.write(/\d{4}/.exec(Date())[0])</script> Lucas Benko
+                <script>
+                    document.write(/\d{4}/.exec(Date())[0])
+                </script> Lucas Benko
             </div>
         </div>
     </footer>

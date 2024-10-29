@@ -11,7 +11,7 @@
     <link href="res/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5e1f571de9.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <meta name="view-transition" content="same-origin"/>
+    <meta name="view-transition" content="same-origin" />
     <script src="res/script.js"></script>
     <link rel="icon" href="res/favicon.png">
 </head>
@@ -21,14 +21,14 @@
 
     <div class="container">
         <header class="text-center mt-4">
-            <h1 class="display-4">Lucas Benko</h1>
+            <h1 class="display-4 main-title">Lucas Benko</h1>
         </header>
 
         <nav class="navbar-expand-lg mb-4">
             <ul class="nav justify-content-center font-weight-bold">
                 <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link active" href="resume">Resume</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
             </ul>
         </nav>
@@ -60,7 +60,9 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center my-2" style="color: #ffffff;">&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script> Lucas Benko
+            <div class="row justify-content-center my-2" style="color: #ffffff;">&copy; <script>
+                    document.write(/\d{4}/.exec(Date())[0])
+                </script> Lucas Benko
             </div>
         </div>
     </footer>

@@ -12,6 +12,26 @@ body {
     color: #e6615a;
 }
 
+.nav-link.active {
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    .nav-link {
+        padding: 0 5px !important;
+    }
+
+    .lead {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 314px) {
+    .nav-link {
+        padding: 0 2px !important;
+    }
+}
+
 .content {
     max-width: 70%;
     height: 300px;
@@ -25,6 +45,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.red-title {
+    color: white;
+    text-decoration: underline #e6615a;
+}
+
+.red-block {
+    background-color: #e6615a;
+}
+
+.main-title {
+    font-weight: bold;
 }
 
 canvas {
