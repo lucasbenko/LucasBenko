@@ -41,7 +41,7 @@ session_start();
 
     <div class="container">
         <header class="text-center mt-4">
-            <h1 class="display-4">Lucas Benko</h1>
+            <h1 class="display-4 main-title">Lucas Benko</h1>
         </header>
 
         <nav class="navbar-expand-lg mb-4">
@@ -49,7 +49,7 @@ session_start();
                 <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link" href="resume">Resume</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact">Contact</a></li>
             </ul>
         </nav>
 
