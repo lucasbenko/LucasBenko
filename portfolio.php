@@ -115,6 +115,31 @@
           </p>
         </div>
       </div>
+      <!-- Hockey Schedule Getter -->
+      <div class="p-2">&nbsp</div>
+
+      <div class="row justify-content-center">
+        <div
+          class="col-md-3 d-flex justify-content-center align-items-center text-center">
+          <a href="https://github.com/lucasbenko/HockeySchedulerGetter">
+            <img
+              src="res/java-logo.png"
+              class="img-fluid img-portfolio p-4"
+              alt="Lucas Benko" />
+          </a>
+        </div>
+        <div class="col-md-6 justify-content-center text-center">
+          <h1><a href="https://github.com/lucasbenko/HockeySchedulerGetter">Hockey Schedule Getter</a></h1>
+          <p class="lead text-center">
+            A Java app utilizing the Google Sheets and NHL API's purpose built to fill in a spreadsheet with scheduling information.
+          </p>
+          <p>
+            <a
+              href="https://github.com/lucasbenko/HockeySchedulerGetter"
+              target="_blank" class="github-link">View on GitHub</a>
+          </p>
+        </div>
+      </div>
       <!-- Minesweeper -->
       <div class="p-2">&nbsp</div>
 

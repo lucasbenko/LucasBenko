@@ -36,7 +36,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
                     <div>
-                        <img src="res/profile_picture.jpg" class="img-fluid rounded-circle p-4" alt="Lucas Benko">
+                        <img src="res/profile_picture_sm.jpg" class="img-fluid rounded-circle p-4" alt="Lucas Benko">
                     </div>
                     <div class="lead text-center">
                         <p>
